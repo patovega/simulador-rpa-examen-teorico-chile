@@ -140,7 +140,7 @@ export default function App() {
 
                 <div className="bg-white border border-[#141414] p-8 rounded-sm shadow-[8px_8px_0px_0px_rgba(20,20,20,1)]">
                   <p className="mb-6 leading-relaxed">
-                    Bienvenido al simulador oficial. El banco contiene 47 preguntas. 
+                    Bienvenido. Este simulador es <span className="font-bold">solo con fines educativos</span>. El banco contiene 47 preguntas. 
                     Necesitas un <span className="font-bold">75%</span> para aprobar.
                   </p>
                   
@@ -336,7 +336,7 @@ export default function App() {
       {/* Footer Info */}
       <footer className="relative z-10 max-w-2xl mx-auto px-6 py-8 border-t border-[#141414]/10 text-[10px] uppercase tracking-[0.2em] font-bold opacity-30 flex justify-between items-center">
         <div className="flex flex-col gap-1">
-          <span>DGAC Chile Simulator</span>
+          <span>DGAC Chile Simulator • Solo con fines educativos</span>
           <span>Autor: Patricio Vega</span>
         </div>
         <span>v1.0.1</span>
